@@ -1,0 +1,391 @@
+{
+  "project": "r4z33n4l1/bullpen-slides",
+  "snapshot_date": "2026-10-31",
+  "repository": "r4z33n4l1/bullpen-slides",
+  "backups": [
+    {
+      "ref": "refs/tags/local-backup/2026-10-31/branches/main-25b8a1617f",
+      "sha": "25b8a1617f7a7ef930e30109f3149e19c04dc9d0",
+      "kind": "original-history",
+      "snapshot_id": null,
+      "source_ref": "refs/heads/main",
+      "stash_index": null,
+      "verified": true
+    },
+    {
+      "ref": "refs/tags/local-backup/2026-10-31/working-7da3acd6a6b2-c49cf3aa",
+      "sha": "c49cf3aa43bd86f8a8effa5c18908b5656f57ed7",
+      "kind": "snapshot",
+      "snapshot_id": "7da3acd6a6b2",
+      "source_ref": null,
+      "stash_index": null,
+      "verified": true
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "7da3acd6a6b2",
+      "kind": "working",
+      "source_sha": "25b8a1617f7a7ef930e30109f3149e19c04dc9d0",
+      "commit": "c49cf3aa43bd86f8a8effa5c18908b5656f57ed7",
+      "included_files": 73,
+      "bytes": 678950,
+      "excluded": [],
+      "secret_findings": [],
+      "saved_ref": "refs/tags/local-backup/2026-10-31/working-7da3acd6a6b2-c49cf3aa"
+    }
+  ],
+  "local_checkouts": [
+    {
+      "branch": "main",
+      "source_commit": "25b8a1617f7a7ef930e30109f3149e19c04dc9d0",
+      "source_branch_state": "branch absent on GitHub",
+      "file_status_verified": true,
+      "changes": [
+        {
+          "code": " M",
+          "path": "README.md"
+        },
+        {
+          "code": " D",
+          "path": "animations/README.md"
+        },
+        {
+          "code": " D",
+          "path": "animations/lp_presentation_animations.py"
+        },
+        {
+          "code": " M",
+          "path": "app/globals.css"
+        },
+        {
+          "code": " M",
+          "path": "app/layout.tsx"
+        },
+        {
+          "code": " M",
+          "path": "package-lock.json"
+        },
+        {
+          "code": " M",
+          "path": "package.json"
+        },
+        {
+          "code": " D",
+          "path": "public/1.png"
+        },
+        {
+          "code": " D",
+          "path": "public/2.png"
+        },
+        {
+          "code": " D",
+          "path": "public/animations/bakery-feasible-region-final.png"
+        },
+        {
+          "code": " D",
+          "path": "public/animations/bakery-feasible-region.mp4"
+        },
+        {
+          "code": " D",
+          "path": "public/animations/bakery-region.mp4"
+        },
+        {
+          "code": " D",
+          "path": "public/animations/convexity.mp4"
+        },
+        {
+          "code": " D",
+          "path": "public/animations/duality.mp4"
+        },
+        {
+          "code": " D",
+          "path": "public/animations/feasible-region.mp4"
+        },
+        {
+          "code": " D",
+          "path": "public/animations/halfspace.mp4"
+        },
+        {
+          "code": " D",
+          "path": "public/animations/level-set.mp4"
+        },
+        {
+          "code": " D",
+          "path": "public/animations/simplex-path.mp4"
+        },
+        {
+          "code": " D",
+          "path": "public/animations/simplex-walk-3d.mp4"
+        },
+        {
+          "code": " T",
+          "path": "public/presenter-videos/convexity.mp4"
+        },
+        {
+          "code": " T",
+          "path": "public/presenter-videos/factory.mp4"
+        },
+        {
+          "code": " T",
+          "path": "public/presenter-videos/feasible-region.mp4"
+        },
+        {
+          "code": " T",
+          "path": "public/presenter-videos/theorem-sweep.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/LPPresentation.json"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/0291d66b0f720b2afaf670b3911b009c0471b56a6408350c80a45ffe596adbee.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/0291d66b0f720b2afaf670b3911b009c0471b56a6408350c80a45ffe596adbee_reversed.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/096a0cfceaa4c6ae4fafd3357f7417a8d1852d87d36bc118d146a4deddf5c68a.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/096a0cfceaa4c6ae4fafd3357f7417a8d1852d87d36bc118d146a4deddf5c68a_reversed.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/099dfb7c8af859a8aacbb27bc6c635d18a538d9ba701cd54fe95f31f5ed9dd9b.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/099dfb7c8af859a8aacbb27bc6c635d18a538d9ba701cd54fe95f31f5ed9dd9b_reversed.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/21b6107e111832fb72a117f2d4e759b3d57de462c199cfafc3558cc6abfb6303.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/21b6107e111832fb72a117f2d4e759b3d57de462c199cfafc3558cc6abfb6303_reversed.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/2470008519d779462ab6d988721f47d5eb3fd4bc80d3a7bcf92ff2b1594413ca.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/2470008519d779462ab6d988721f47d5eb3fd4bc80d3a7bcf92ff2b1594413ca_reversed.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/266d6731739a229f000e641fd85bf64fec85f24ee342d0b0421baf7bdf2ca6bd.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/266d6731739a229f000e641fd85bf64fec85f24ee342d0b0421baf7bdf2ca6bd_reversed.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/3767644e89003c6b502db5a7d930ceef79cbafbad58a74f42e4726de2ae4f70f.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/3767644e89003c6b502db5a7d930ceef79cbafbad58a74f42e4726de2ae4f70f_reversed.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/667d5172a6637077a38edde050f9d042956f9a0697db499514c56cc2c4eae40d.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/667d5172a6637077a38edde050f9d042956f9a0697db499514c56cc2c4eae40d_reversed.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/6bb058ae545ecb2816b8114d0fcf30a211423637b3058f88a98ef900e8f5c276.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/6bb058ae545ecb2816b8114d0fcf30a211423637b3058f88a98ef900e8f5c276_reversed.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/6cc1ecffe5c96b343d49068a397ac07f313224a8295d93e10a218fa075d3e91b.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/6cc1ecffe5c96b343d49068a397ac07f313224a8295d93e10a218fa075d3e91b_reversed.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/9fec88e81c10248f81baa81c43d7ffad9f3b55b69750bb38aa5c77a539b205cf.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/9fec88e81c10248f81baa81c43d7ffad9f3b55b69750bb38aa5c77a539b205cf_reversed.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/a231a8e561d5ae0b4c70f0359aaaffc636fbbf11216bb2eb3d39cd174e0b3836.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/a231a8e561d5ae0b4c70f0359aaaffc636fbbf11216bb2eb3d39cd174e0b3836_reversed.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/b8723a6a158a0f14d95db01ea6fc3a4dbac3a8e18cf1ad436d9ba700148501ab.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/b8723a6a158a0f14d95db01ea6fc3a4dbac3a8e18cf1ad436d9ba700148501ab_reversed.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/b910325fc9e72d8975681c12c809185dad21c1f3a23250b4c2ae2ff5ffe59568.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/b910325fc9e72d8975681c12c809185dad21c1f3a23250b4c2ae2ff5ffe59568_reversed.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/c03b7a71953e1cf03c99deb9573d7fc5e0112a71e237b8553815aed24a4195db.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/c03b7a71953e1cf03c99deb9573d7fc5e0112a71e237b8553815aed24a4195db_reversed.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/c4af31687c33f41acf0b3bd76d80df0de4e4d4bb212cd7ffaff919d17c7abb9b.mp4"
+        },
+        {
+          "code": " D",
+          "path": "slides/files/LPPresentation/c4af31687c33f41acf0b3bd76d80df0de4e4d4bb212cd7ffaff919d17c7abb9b_reversed.mp4"
+        },
+        {
+          "code": " M",
+          "path": "src/components/presentation/deck-home.tsx"
+        },
+        {
+          "code": " M",
+          "path": "src/components/presentation/deck-player.tsx"
+        },
+        {
+          "code": " M",
+          "path": "src/components/presentation/presentation.module.css"
+        },
+        {
+          "code": " M",
+          "path": "src/components/presentation/templates/agenda-layout.module.css"
+        },
+        {
+          "code": " M",
+          "path": "src/components/presentation/templates/agenda-layout.tsx"
+        },
+        {
+          "code": " M",
+          "path": "src/components/presentation/templates/content-visual-layout.module.css"
+        },
+        {
+          "code": " M",
+          "path": "src/components/presentation/templates/content-visual-layout.tsx"
+        },
+        {
+          "code": " M",
+          "path": "src/components/presentation/templates/full-visual-layout.module.css"
+        },
+        {
+          "code": " M",
+          "path": "src/components/presentation/templates/full-visual-layout.tsx"
+        },
+        {
+          "code": " M",
+          "path": "src/components/presentation/templates/math-layout.tsx"
+        },
+        {
+          "code": " M",
+          "path": "src/components/presentation/templates/slide-frame.module.css"
+        },
+        {
+          "code": " M",
+          "path": "src/components/presentation/templates/table-layout.module.css"
+        },
+        {
+          "code": " M",
+          "path": "src/components/presentation/templates/table-layout.tsx"
+        },
+        {
+          "code": " M",
+          "path": "src/components/presentation/templates/theorem-layout.tsx"
+        },
+        {
+          "code": " M",
+          "path": "src/components/presentation/templates/title-layout.module.css"
+        },
+        {
+          "code": " M",
+          "path": "src/components/presentation/templates/title-layout.tsx"
+        },
+        {
+          "code": " D",
+          "path": "src/components/presentation/visuals/bakery-icon-visual.tsx"
+        },
+        {
+          "code": " M",
+          "path": "src/components/presentation/visuals/visual-registry.tsx"
+        },
+        {
+          "code": "??",
+          "path": "src/components/presentation/visuals/architecture-stack-visual.tsx"
+        },
+        {
+          "code": "??",
+          "path": "src/components/presentation/visuals/generalist-breakdown-visual.tsx"
+        },
+        {
+          "code": "??",
+          "path": "src/components/presentation/visuals/lessons-grid-visual.tsx"
+        },
+        {
+          "code": "??",
+          "path": "src/components/presentation/visuals/runtime-shift-visual.tsx"
+        },
+        {
+          "code": "??",
+          "path": "src/components/presentation/visuals/team-duo-visual.tsx"
+        },
+        {
+          "code": "??",
+          "path": "src/components/presentation/visuals/walkthrough-frame-visual.tsx"
+        },
+        {
+          "code": "??",
+          "path": "src/components/presentation/visuals/worker-system-visual.tsx"
+        },
+        {
+          "code": "??",
+          "path": "src/content/bullpen-runtime-deck.ts"
+        }
+      ]
+    }
+  ],
+  "history_withheld": [],
+  "history_bundle": {
+    "file": "history.bundle",
+    "sha256": "76d795d66ca8471a2d1757f1ce8b837d6eb11318a06db21f446d74dede0fe166",
+    "bytes": 6860899,
+    "prerequisite_repository": "r4z33n4l1/bullpen-slides",
+    "refs": [
+      {
+        "ref": "refs/audit/local/e9a86af8/heads/main",
+        "source_ref": "refs/heads/main",
+        "sha": "25b8a1617f7a7ef930e30109f3149e19c04dc9d0",
+        "stash_index": null
+      }
+    ]
+  }
+}
