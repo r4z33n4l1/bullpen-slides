@@ -1,0 +1,74 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.title {
+  margin: 0;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: clamp(2rem, 3vw, 2.6rem);
+  letter-spacing: -0.03em;
+  line-height: 1.06;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.subtitle {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 1.08rem;
+  line-height: 1.55;
+  max-width: 48rem;
+  text-align: center;
+}
+
+.table {
+  width: 100%;
+  max-width: 860px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: rgba(255, 247, 238, 0.72);
+}
+
+.table th {
+  padding: 16px 20px;
+  background: linear-gradient(180deg, var(--accent-strong), var(--accent));
+  color: #fff8f1;
+  font-size: 0.98rem;
+  font-weight: 700;
+  text-align: left;
+  letter-spacing: 0.02em;
+}
+
+.table td {
+  padding: 16px 20px;
+  font-size: 1.05rem;
+  line-height: 1.45;
+  border-bottom: 1px solid rgba(60, 39, 24, 0.08);
+  vertical-align: top;
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+.highlight td {
+  background: rgba(217, 119, 6, 0.12);
+  font-weight: 700;
+  color: var(--foreground);
+}
+
+.footer {
+  margin: 0;
+  color: var(--ink-muted);
+  font-size: 0.9rem;
+  font-style: italic;
+  line-height: 1.45;
+  text-align: center;
+}

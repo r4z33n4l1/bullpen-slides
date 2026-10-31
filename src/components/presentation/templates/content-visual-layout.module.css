@@ -1,0 +1,108 @@
+.wrap {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+  gap: 40px;
+  align-items: center;
+  width: 100%;
+}
+
+.singleColumn {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 34rem;
+}
+
+.singleColumn .text {
+  max-width: 42rem;
+}
+
+.title {
+  margin: 0;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: clamp(2rem, 3vw, 2.7rem);
+  line-height: 1.06;
+  letter-spacing: -0.03em;
+  text-wrap: balance;
+}
+
+.subtitle {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 1.08rem;
+  line-height: 1.55;
+  max-width: 32rem;
+}
+
+.bullets {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.bullet {
+  font-size: clamp(1.06rem, 1.6vw, 1.22rem);
+  line-height: 1.55;
+  padding-left: 1.3em;
+  position: relative;
+  text-wrap: balance;
+}
+
+.bullet::before {
+  content: "\2022";
+  position: absolute;
+  left: 0;
+  color: var(--accent-strong);
+  font-weight: 700;
+}
+
+.visualPane {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 320px;
+  max-height: 460px;
+}
+
+.visualPane :global(svg) {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+.footer {
+  margin: 0;
+  color: var(--ink-muted);
+  font-size: 0.88rem;
+  font-style: italic;
+  line-height: 1.45;
+  max-width: 32rem;
+}
+
+.revealed {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  pointer-events: none;
+}
+
+@media (max-width: 800px) {
+  .wrap {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+}
